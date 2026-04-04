@@ -3,7 +3,7 @@ import Navbar from "#components/Navbar"
 import Welcome from "#components/Welcome"
 import { Draggable } from "gsap/Draggable"
 import gsap from "gsap"
-import { Terminal } from "#windows"
+import { Resume, Safari, Terminal } from "#windows"
 
 
 
@@ -16,6 +16,8 @@ function App() {
       <Dock />
 
       <Terminal />
+      <Safari />
+      <Resume />
     </main>
   )
 }
