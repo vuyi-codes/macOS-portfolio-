@@ -3,7 +3,7 @@ import Navbar from "#components/Navbar"
 import Welcome from "#components/Welcome"
 import { Draggable } from "gsap/Draggable"
 import gsap from "gsap"
-import { Finder, ImageWindow, Resume, Safari, Terminal , Text} from "#windows"
+import { Contact, Finder, ImageWindow, Resume, Safari, Terminal , Text} from "#windows"
 
 
 gsap.registerPlugin(Draggable);
@@ -20,6 +20,7 @@ function App() {
       <Finder />
       <Text />
       <ImageWindow />
+      <Contact />
     </main>
   )
 }
